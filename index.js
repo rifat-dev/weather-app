@@ -65,6 +65,7 @@ function getWeatherData(city=city_name , coords) {
         })
         .catch(e => {
             console.log(e);
+            alert('City Not Found')
         })
 }
 
